@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bait Platform</title>
+    <link rel="icon" href="img/owl_icon.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body onload="onLoad();">
+<div style="color: #3f0f91; padding: 15px 20px; font-size: 35px;">
+    <a href="https://www.asiosecurity.com/" class="noHighlight"><img src="img/full_logo.png" height="100"></a>
+</div>
+<div style="position: absolute;top: 50%;left: 50%;margin-top: -225px;margin-left: -350px;width: 700px;height: 350px;text-align: center;">
+    <div style="font-size: 27px; color: #3f0f91; padding-top: 30px; padding-right: 10px;">Bait Platform</div>
+    <div>
+        <div style="font-size: 23px; padding: 20px 0;">Thanks for Registering a Demo Account!</div> 
+        <div style="font-size: 19px; padding: 8px 20px 0; color: #3f0f91">About Bait:</div> 
+        <div>
+            The only way to prevent phishing attacks is through education and awareness. The Bait Platform is a proprietary social engineering awareness and education tool designed to train and prepare employees for possible phishing attacks. This monthly service includes scheduled mock phishing campaigns where emails are sent to employees to test them in real world scenarios. A wide range of attack vectors are utilized, and employees are shown the various social engineering possibilities through phishing attacks targeting email and other 3rd party applications used by your company. Data on past and present campaigns, including trends, insight, and customizability, is available to you on the platform's interface.
+        </div>
+        <a href="login.php" class="submitBtn" style="margin-top: 15px;">Continue to Login</a>
+    </div>
+</div>
+<div id="footer">
+    <div style="position:absolute; left:0; bottom:0; padding: 10px;">
+        &#32;&#169; Asio Security, 2017
+    </div>
+</div>
+<script type="text/javascript">
+    function onLoad() {
+        var year = new Date().getFullYear();
+        document.getElementById('footer').innerHTML = '<div style="position:absolute; left:0; bottom:0; padding: 10px;">&#32;&#169; Asio Security, ' + year + '</div>';
+    }
+</script>
+</body>
+</html>
