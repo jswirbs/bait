@@ -10,7 +10,7 @@ do
    if [[ "$ATIME" != "$LTIME" ]]
    then    
        echo "file transfered..."
-       scp -P 5000 /var/www/html/Resumes.php root@45.55.218.37:/var/www/html/clients/jswirbul2
+       scp -P 5000 /var/www/html/Resumes.php root@"WEBSERVER_IP":/var/www/html/clients/"CLIENT_FOLDER"
        LTIME=$ATIME
    fi
    sleep 5
