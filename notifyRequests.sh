@@ -10,7 +10,7 @@ do
 
    if [[ "$ATIME" != "$LTIME" ]]
    then    
-       echo "A new campaign requests has been submitted to requests.php" | ssmtp jswirbul@asiosecurity.com
+       echo "A new campaign requests has been submitted to requests.php" | ssmtp "EMAIL_ADDRESS"
        LTIME=$ATIME
    fi
    sleep 5
